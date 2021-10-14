@@ -10,9 +10,26 @@ margin: 1rem auto
     margin-bottom: 1rem;
     margin-left: 8px;
 }
+
+
+
 .Home_products{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* amen toxi vra 4 product */
+}
+
+.debounce_container{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+
+}
+.debounce_container input{
+  min-width:300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #537791;
+  box-shadow: 1px 1px 1px 4px lightgray;
 }
 
 @media (max-width: 1232px) {

@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect, } from "react";
 
 import './CartList.css'
 import Cart from '../Cart'
@@ -9,7 +8,6 @@ const CartList = () => {
 
 
 
-  useEffect(() => {}, []);
 
 
 

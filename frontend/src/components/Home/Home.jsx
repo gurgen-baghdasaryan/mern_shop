@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect,useState } from "react";
 import TablePagination from '@mui/material/TablePagination';
+import {DebounceInput} from 'react-debounce-input';
 import axios from "axios";
 
 
@@ -16,6 +17,8 @@ const Home = () => {
   const [products, setproduct] = useState([])
   const [productstoshow, setProductstoshow] = useState([])
 
+  const [search, setsearch] = useState('')
+  
   const [page, setPage] = React.useState(1);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
 
@@ -31,8 +34,11 @@ const Home = () => {
   };
 
 
+  useEffect(() => {
+    const data = products.filter(e=> {return e.name === search})
+        setProductstoshow(data)
 
-  
+  }, [search])
 
 
 
@@ -41,7 +47,6 @@ const Home = () => {
         .then(res => {
           setproduct(res.data)
           setProductstoshow(res.data.slice(0,10))
-          console.log("All",res.data);
 
         })
         .catch(error => console.log(error))
@@ -49,7 +54,6 @@ const Home = () => {
 
   useEffect(() => {
     setProductstoshow(products.slice((page-1)*10, page*10))
-    console.log("Courant",productstoshow);
   }, [page]);
 
 
@@ -58,8 +62,13 @@ const Home = () => {
     <div className="Home">
       <h3 className="Home_title">New Collection</h3>
 
+      <div className="debounce_container">
+      <DebounceInput
+          minLength={2}
+          debounceTimeout={300}
+          onChange={event => setsearch( event.target.value)} />
+      </div>
      
-
 
 
        <div className="Home_products">

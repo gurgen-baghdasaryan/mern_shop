@@ -1,23 +1,23 @@
 const products = [
   {
-    name: "White Gold Plated Princess ",
+    name: "White Gold Plated Princess",
     imageUrl:
     "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
     description:
     "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her",
-    price: 130,
+    price: 1300,
   },
 
   {
-    name: "Pierced Owl Rose ",
+    name: "Pierced Owl Rose",
     imageUrl:
     "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
     description:
     "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
-    price: 100,
+    price: 600,
   },
   {
-    name: " Hard Drive - USB 3.0 ",
+    name: "Hard Drive",
     imageUrl:
     "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
     description:
@@ -25,7 +25,7 @@ const products = [
     price: 439,
   },
   {
-    name: "SanDisk SSD  6 Gb/s ",
+    name: "SanDisk SSD",
     imageUrl:
     "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
     description:
@@ -33,7 +33,7 @@ const products = [
     price: 109,
   },
   {
-    name: "Silicon Power 256GB SSD ",
+    name: "Silicon Power 256GB SSD",
     imageUrl:
     "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
     description:
@@ -41,7 +41,7 @@ const products = [
     price: 130,
   },
   {
-    name: "WD 4TB Gaming  Hard Drive ",
+    name: "WD 4TB Gaming  Hard Drive",
     imageUrl:
     "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
     description:
@@ -49,7 +49,7 @@ const products = [
     price: 250,
   },
   {
-    name: "Audio Technica Headphones ",
+    name: "Audio Technica Headphones",
     imageUrl:
     "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
     description:
@@ -57,7 +57,7 @@ const products = [
     price: 2233,
   },
   {
-    name: "JBL FLIP 4 ",
+    name: "JBL FLIP 4",
     imageUrl:
     "https://images.unsplash.com/photo-1564424224827-cd24b8915874?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
     description:
@@ -65,14 +65,14 @@ const products = [
     price: 140,
   },
   {
-    name: "DANVOUY Womens T Shirt ",
+    name: "DANVOUY Womens T Shirt",
     imageUrl:
     "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
     description:
     "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric ",
     price: 190,
   },{
-    name: " Jacket Winter Coats ",
+    name: "Jacket Winter Coats",
     imageUrl:
     "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
     description:
@@ -80,14 +80,14 @@ const products = [
     price: 370,
   },
   {
-    name: " Moto Biker Jacket ",
+    name: "Moto Biker Jacket",
     imageUrl:"https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
     description:
     "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort",
     price: 109,
   },
   {
-    name: "Jacket Women Windbreaker ",
+    name: "Jacket Women Windbreaker",
     imageUrl:
     "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
     description:
@@ -95,7 +95,7 @@ const products = [
     price: 1300,
   },
   {
-    name: "PlayStation 5 ",
+    name: "PlayStation 5",
     imageUrl:
       "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
     description:
@@ -103,7 +103,7 @@ const products = [
     price: 499,
   },
   {
-    name: "Iphone 13 ",
+    name: "Iphone 13",
     imageUrl:
       "https://images.unsplash.com/photo-1605787020600-b9ebd5df1d07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1463&q=80",
     description:
@@ -111,7 +111,7 @@ const products = [
     price: 1099,
   },
   {
-    name: "Cannon EOS-1D ",
+    name: "Cannon EOS-1D",
     imageUrl:
       "https://images.unsplash.com/photo-1519183071298-a2962feb14f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     description:
@@ -119,7 +119,7 @@ const products = [
     price: 1300,
   },
   {
-    name: "Amazon Alexa ",
+    name: "Amazon Alexa",
     imageUrl:
       "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
     description:
@@ -127,7 +127,7 @@ const products = [
     price: 50,
   },
   {
-    name: "Audio Technica Headphones ",
+    name: "Audio Technica Headphones",
     imageUrl:
       "https://images.unsplash.com/photo-1558756520-22cfe5d382ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     description:
@@ -135,7 +135,7 @@ const products = [
     price: 233,
   },
   {
-    name: "JBL FLIP 4 ",
+    name: "JBL FLIP 4",
     imageUrl:
       "https://images.unsplash.com/photo-1564424224827-cd24b8915874?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
     description:
@@ -144,7 +144,7 @@ const products = [
   },
 
   {
-    name: "Fjallraven ",
+    name: "Fjallraven",
     imageUrl:
       "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
     description:
@@ -152,7 +152,7 @@ const products = [
     price: 170,
   },
   {
-    name: "Mens T-Shirts ",
+    name: "Mens T-Shirts",
     imageUrl:
       "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
     description:
@@ -160,7 +160,7 @@ const products = [
     price: 439,
   },
   {
-    name: "Mens Cotton Jacket ",
+    name: "Mens Cotton Jacket",
     imageUrl:
      "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
     description:
@@ -168,7 +168,7 @@ const products = [
     price: 49,
   },
   {
-    name: "Mens Casual Slim Fit ",
+    name: "Mens Casual Slim Fit",
     imageUrl:
       "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
     description:
@@ -176,7 +176,7 @@ const products = [
     price: 100,
   },
   {
-    name: " Silver  Bracelet ",
+    name: "Silver  Bracelet",
     imageUrl:
     "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
     description:
@@ -184,7 +184,7 @@ const products = [
     price: 680,
   },
   {
-    name: "Solid Gold Petite Micropave ",
+    name: "Solid Gold Petite Micropave",
     imageUrl:
       "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
     description:
@@ -192,7 +192,7 @@ const products = [
     price: 2003,
   },
   {
-    name: " Jacket Winter Coats ",
+    name: "Jacket Winter Coats",
     imageUrl:
     "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
     description:
@@ -200,14 +200,14 @@ const products = [
     price: 370,
   },
   {
-    name: " Moto Biker Jacket ",
+    name: " Moto Biker Jacket",
     imageUrl:"https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
     description:
     "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort",
     price: 109,
   },
   {
-    name: "Jacket Women Windbreaker ",
+    name: "Jacket Women Windbreaker",
     imageUrl:
     "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
     description:
@@ -215,7 +215,7 @@ const products = [
     price: 1300,
   },
   {
-    name: "Women's Short Sleeve Moisture ",
+    name: "Women's Short Sleeve Moisture",
     imageUrl:
     "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
     description:
@@ -223,7 +223,7 @@ const products = [
     price: 50,
   },
   {
-    name: "Audio Technica Headphones ",
+    name: "Audio Technica Headphones",
     imageUrl:
     "https://images.unsplash.com/photo-1558756520-22cfe5d382ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     description:
@@ -232,7 +232,7 @@ const products = [
   },
   
   {
-    name: "Women's Short Sleeve Moisture ",
+    name: "Women's Short Sleeve Moisture",
     imageUrl:
     "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
     description:
@@ -240,7 +240,7 @@ const products = [
     price: 50,
   },
   {
-    name: "Audio Technica Headphones ",
+    name: "Audio Technica Headphones",
     imageUrl:
     "https://images.unsplash.com/photo-1558756520-22cfe5d382ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
     description:
@@ -248,7 +248,7 @@ const products = [
     price: 233,
   },
   {
-    name: "JBL FLIP 4 ",
+    name: "JBL FLIP 4",
     imageUrl:
     "https://images.unsplash.com/photo-1564424224827-cd24b8915874?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
     description:
@@ -257,7 +257,7 @@ const products = [
   },
 
   {
-    name: "DANVOUY Womens T Shirt ",
+    name: "DANVOUY Womens T Shirt",
     imageUrl:
     "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
     description:
