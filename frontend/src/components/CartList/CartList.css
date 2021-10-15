@@ -5,6 +5,7 @@
     margin: 2rem auto;
 }
 .CardList h3{
+    font-family: 'Audiowide', cursive;
     margin-bottom: 1rem;
 }
 .first_container{
@@ -37,6 +38,7 @@
 }
 
 .second_container div button{
+    font-family: 'Audiowide', cursive;
     padding: 10px 17px;
     width: 100%;
     font-family: 'Audiowide', cursive;

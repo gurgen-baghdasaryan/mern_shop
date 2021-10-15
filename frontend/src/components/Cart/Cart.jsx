@@ -6,16 +6,16 @@ import './Cart.css'
 
 
 
-const Cart = () => {
+const Cart = ({imageUrl,  price, name, productId}) => {
   return (<div className="Cart">
     <div className="Cart_img">
-      <img src="https://images.unsplash.com/photo-1605787020600-b9ebd5df1d07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1463&q=80" alt="Product" />
+      <img src={imageUrl} alt={name} />
     </div>
 
-    <Link to={`/product/${111}`} className="Cart_name">
+    <Link to={`/product/${productId}`} className="Cart_name">
       <p>emotion1</p>
     </Link>
-    <p className="Cart_price">299.99 EUR</p>
+    <p className="Cart_price">{price} EUR</p>
 
     <select className="Cart_select">
       <option value="1">1</option>
