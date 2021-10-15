@@ -49,7 +49,7 @@ const products = [
     price: 250,
   },
   {
-    name: "Audio Technica Headphones",
+    name: "Curved Gaming Monitor",
     imageUrl:
     "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
     description:
@@ -200,7 +200,7 @@ const products = [
     price: 370,
   },
   {
-    name: " Moto Biker Jacket",
+    name: "Moto Biker Jacket",
     imageUrl:"https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
     description:
     "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort",

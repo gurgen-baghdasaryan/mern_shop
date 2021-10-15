@@ -64,6 +64,7 @@ const Home = () => {
 
       <div className="debounce_container">
       <DebounceInput
+          placeholder="Search"
           minLength={2}
           debounceTimeout={300}
           onChange={event => setsearch( event.target.value)} />

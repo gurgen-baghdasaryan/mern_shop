@@ -40,7 +40,7 @@ const Product = ({match}) => {
     <div className="second_container">
       <div className="second_info">
         <p>
-          Price:<span>{product.price}</span>
+          Price: <span> {product.price} €</span>
         </p>
         <p>
           Status: <span>In Stock</span>

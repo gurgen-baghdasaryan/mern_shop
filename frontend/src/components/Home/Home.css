@@ -25,6 +25,8 @@ margin: 1rem auto
 
 }
 .debounce_container input{
+  font-family: 'Audiowide', cursive;
+  color: ;
   min-width:300px;
   height: 40px;
   border-radius: 10px;
