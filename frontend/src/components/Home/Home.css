@@ -55,3 +55,37 @@ margin: 1rem auto
       grid-template-columns: 1fr;
     }
   }
+
+
+
+
+  /* @media (max-width: 630px) {
+    .Home_title{
+      display: flex;
+      justify-content: center;
+  }
+    .Home_products {
+      grid-template-columns: 1fr;
+    }
+  } */
+
+
+  /* @media (max-width: 630px) {
+    .Home_title{
+      display: flex;
+      justify-content: center;
+  }
+    .Home_products {
+      grid-template-columns: 1fr;
+    }
+  } */
+
+  /* @media (max-width: 630px) {
+    .Home_title{
+      display: flex;
+      justify-content: center;
+  }
+    .Home_products {
+      grid-template-columns: 1fr;
+    }
+  } */
