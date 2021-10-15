@@ -23,10 +23,10 @@ const CartList = () => {
     <div className="second_container">
       <div className="Cart_info">
       <p>total(0)items</p>
-      <p>300 EUR</p>
+      <p>300 </p>
       </div>
       <div>
-        <button>Check </button>
+        <button>Check</button>
       </div>
     </div>
 
