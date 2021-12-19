@@ -25,6 +25,7 @@ margin: 1rem auto
 
 }
 .debounce_container input{
+  text-indent: 15px;
   color: black;
   min-width:300px;
   height: 40px;

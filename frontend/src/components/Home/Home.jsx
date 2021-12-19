@@ -31,14 +31,15 @@ const Home = () => {
   const handleChangeRowsPerPage = (event) => {
     setRowsPerPage(parseInt(event.target.value, 10));
     setPage(0);
-  };
+  }; //sranov du voroshum es qani hat product lini pagit mej
 
 
   useEffect(() => {
     const data = products.filter(e=> {return e.name === search})
         setProductstoshow(data)
 
-  }, [search])
+  }, [search])//dibounce menq searchi mej statei (searchi mej) incheq uzum u avelacnuma datai mej
+
 
 
 
@@ -50,7 +51,8 @@ const Home = () => {
 
         })
         .catch(error => console.log(error))
-  }, []);
+  }, []); //vercnum enq bolor productnere avelacnum enq stateum
+
 
   useEffect(() => {
     setProductstoshow(products.slice((page-1)*10, page*10))
