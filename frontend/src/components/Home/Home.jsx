@@ -56,7 +56,7 @@ const Home = () => {
 
   useEffect(() => {
     setProductstoshow(products.slice((page-1)*10, page*10))
-  }, [page]);
+  }, [page, products]);
 
 
 

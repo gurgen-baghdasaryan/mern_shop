@@ -12,7 +12,7 @@ const Nav = ({ click }) => {
     <div className="Nav">
       <div className="Nav_logo" >
 
-        <h3>FULLSHOP</h3>
+      <h3><Link className='h3link' to={'/'}>FULLSHOP</Link></h3>
 
       </div>
       <ul className="Nav_links">

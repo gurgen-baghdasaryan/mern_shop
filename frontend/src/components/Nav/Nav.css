@@ -9,16 +9,25 @@
     align-items: center;
     padding: 1.5rem 1rem;
     z-index: 50;
-      
+    text-decoration: none;  
+}
+
+.h3link{
+  text-decoration: none;
+  color: white;
 }
 
 .Nav_logo h3 {
-    
     color: #f4f4f4;
     font-size: 1.4rem;
     cursor: pointer;
+    text-decoration: none;
+    
+    
   }
-
+  .Nav_logo h3:visited{
+    text-decoration: none;
+  }
 
   .Nav_links {
     display: flex;
@@ -103,5 +112,6 @@
   @media (max-width: 500px) {
     .Nav_logo h3 {
       font-size: 1rem;
+      text-decoration: none;
     }
   }
