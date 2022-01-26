@@ -14,7 +14,6 @@ const Product = ({match}) => {
     axios.get(`http://localhost:5000/api/products/${match.params.id}`)
         .then(res => {
           setproduct(res.data)
-          console.log(res.data);
 
         })
         .catch(error => console.log(error))
