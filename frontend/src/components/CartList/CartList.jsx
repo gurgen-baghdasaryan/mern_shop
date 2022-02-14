@@ -4,11 +4,7 @@ import './CartList.css'
 import Cart from '../Cart'
 
 
-const CartList = () => {
-
-
-
-
+const CartList = ({imageUrl,  price, name, productId}) => {
 
 
   return (<div className="CardList">
@@ -16,14 +12,13 @@ const CartList = () => {
       <h3>Shoping Cart</h3>
       <Cart/>
       <Cart/>
-     
-     
     </div> 
 
     <div className="second_container">
+    <img src={imageUrl} alt={name} /><img src={imageUrl} alt={name} />
       <div className="Cart_info">
       <p>total(0)items</p>
-      <p>300 </p>
+      <p>{price}</p>
       </div>
       <div>
         <button>Check</button>
