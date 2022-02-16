@@ -1,5 +1,5 @@
 import { useState  } from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Routes ,Route } from "react-router-dom";
 
 import Home from './components/Home'
 import Product from './components/Product'
@@ -19,11 +19,11 @@ function App() {
         <Nav click={() => setSide(true)}/>
         <Back show={side} click={() => setSide(false)}/>
         <Side show={side} click={() => setSide(false)}/>
-        <Switch>
+        <Routes>
           <Route exact path="/" component={Home} />
           <Route exact path="/product/:id" component={Product} />
           <Route exact path="/cart" component={CartList} />
-        </Switch>
+        </Routes>
       </main>
     </Router>
   );
