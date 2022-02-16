@@ -44,7 +44,7 @@ const Home = () => {
 
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/products`)
+    axios.get(`https://fullshopmern.herokuapp.com/api/products`)
         .then(res => {
           setproduct(res.data)
           setProductstoshow(res.data.slice(0,10))

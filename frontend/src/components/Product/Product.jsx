@@ -9,7 +9,7 @@ const Product = ({ match }) => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api/products/${match.params.id}`)
+      .get(`https://fullshopmern.herokuapp.com/products/${match.params.id}`)
       .then((res) => {
         setproduct(res.data);
       })
