@@ -1,5 +1,5 @@
 import { useState  } from 'react';
-import { BrowserRouter as Routes ,Route } from "react-router-dom";
+import { Router as Routes ,Route } from "react-router-dom";
 
 import Home from './components/Home'
 import Product from './components/Product'
