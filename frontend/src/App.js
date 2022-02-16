@@ -1,5 +1,5 @@
 import { useState  } from 'react';
-import { Router as Routes ,Route } from "react-router-dom";
+import { Routes, Route } from "react-div-dom";
 
 import Home from './components/Home'
 import Product from './components/Product'
@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <Router className="App">
+    <div className="App">
       <main>
         <Nav click={() => setSide(true)}/>
         <Back show={side} click={() => setSide(false)}/>
@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/cart" component={CartList} />
         </Routes>
       </main>
-    </Router>
+    </div>
   );
 }
 
